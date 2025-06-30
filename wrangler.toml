@@ -1,0 +1,5 @@
+name = "redirect-worker"
+compatibility_date = "2024-03-01"
+
+[[routes]]
+pattern = "bookdubaihome.pages.dev/*"
