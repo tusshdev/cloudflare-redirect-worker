@@ -2,8 +2,9 @@ name = "redirect-worker"
 compatibility_date = "2024-06-30"
 main = "src/index.js"
 
-# OR for multiple routes:
+account_id = "5b8c21a841df8841df6c8e8646459d9f"
+workers_dev = false
+
 routes = [
-  { pattern = "bookdubaihome.pages.dev/*" },
-  # { pattern = "another-domain.com/*", zone_id = "YOUR_ZONE_ID" }  # Optional
+  { pattern = "bookdubaihome.pages.dev/*", zone_name = "pages.dev" }
 ]
