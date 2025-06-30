@@ -2,9 +2,6 @@ name = "redirect-worker"
 compatibility_date = "2024-06-30"
 main = "src/index.js"
 
-# For Wrangler v4+, use this format:
-route = "bookdubaihome.pages.dev/*"  # Single route (string format)
-
 # OR for multiple routes:
 routes = [
   { pattern = "bookdubaihome.pages.dev/*" },
